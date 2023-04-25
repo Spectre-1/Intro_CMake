@@ -9,5 +9,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-#add executable
+# Add executable
+# First Agrument is the name of the executable
+# Second Argument is the source files
 add_executable(Hello_CMake main.cpp)

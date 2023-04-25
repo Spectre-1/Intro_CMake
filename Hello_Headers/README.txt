@@ -1,11 +1,16 @@
 Simple CMAKE Tutorial to teach myself CMake
 
-Testing out "Hello_CMake" Program
+Testing out "Hello_Headers" Program
 
-Hello_CMake$ tree
+Hello_Headers$ tree
 .
 ├── CMakeLists.txt
-├── main.cpp
+├── include
+│   └── Hello.h
+└── src  
+    ├── Hello.cpp
+    └── main.cpp
+
 
 Commands
 mkdir build     -- Creates new directory called build
