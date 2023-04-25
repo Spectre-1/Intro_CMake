@@ -92,7 +92,7 @@ Hello_Static_EXTERNAL_OBJECTS =
 
 Hello_Static: CMakeFiles/Hello_Static.dir/Src/main.cpp.o
 Hello_Static: CMakeFiles/Hello_Static.dir/build.make
-Hello_Static: libHello_Library.a
+Hello_Static: libHello_library.a
 Hello_Static: CMakeFiles/Hello_Static.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/spectre/Desktop/Intro_CMake-CTest/Hello_Static/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Hello_Static"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hello_Static.dir/link.txt --verbose=$(VERBOSE)

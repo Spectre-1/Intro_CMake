@@ -48,5 +48,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Hello_library.dir/DependInfo.cmake"
-  "CMakeFiles/Hello_binary.dir/DependInfo.cmake"
+  "CMakeFiles/Hello_Static.dir/DependInfo.cmake"
   )

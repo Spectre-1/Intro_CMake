@@ -64,7 +64,7 @@ CMAKE_BINARY_DIR = /Users/spectre/Desktop/Intro_CMake-CTest/Hello_Static/build
 
 # The main recursive "all" target.
 all: CMakeFiles/Hello_library.dir/all
-all: CMakeFiles/Hello_binary.dir/all
+all: CMakeFiles/Hello_Static.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,7 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Hello_library.dir/clean
-clean: CMakeFiles/Hello_binary.dir/clean
+clean: CMakeFiles/Hello_Static.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -103,30 +103,30 @@ CMakeFiles/Hello_library.dir/clean:
 .PHONY : CMakeFiles/Hello_library.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Hello_binary.dir
+# Target rules for target CMakeFiles/Hello_Static.dir
 
 # All Build rule for target.
-CMakeFiles/Hello_binary.dir/all: CMakeFiles/Hello_library.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_binary.dir/build.make CMakeFiles/Hello_binary.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_binary.dir/build.make CMakeFiles/Hello_binary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/spectre/Desktop/Intro_CMake-CTest/Hello_Static/build/CMakeFiles --progress-num=1,2 "Built target Hello_binary"
-.PHONY : CMakeFiles/Hello_binary.dir/all
+CMakeFiles/Hello_Static.dir/all: CMakeFiles/Hello_library.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_Static.dir/build.make CMakeFiles/Hello_Static.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_Static.dir/build.make CMakeFiles/Hello_Static.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/spectre/Desktop/Intro_CMake-CTest/Hello_Static/build/CMakeFiles --progress-num=1,2 "Built target Hello_Static"
+.PHONY : CMakeFiles/Hello_Static.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Hello_binary.dir/rule: cmake_check_build_system
+CMakeFiles/Hello_Static.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/spectre/Desktop/Intro_CMake-CTest/Hello_Static/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hello_binary.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hello_Static.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/spectre/Desktop/Intro_CMake-CTest/Hello_Static/build/CMakeFiles 0
-.PHONY : CMakeFiles/Hello_binary.dir/rule
+.PHONY : CMakeFiles/Hello_Static.dir/rule
 
 # Convenience name for target.
-Hello_binary: CMakeFiles/Hello_binary.dir/rule
-.PHONY : Hello_binary
+Hello_Static: CMakeFiles/Hello_Static.dir/rule
+.PHONY : Hello_Static
 
 # clean rule for target.
-CMakeFiles/Hello_binary.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_binary.dir/build.make CMakeFiles/Hello_binary.dir/clean
-.PHONY : CMakeFiles/Hello_binary.dir/clean
+CMakeFiles/Hello_Static.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_Static.dir/build.make CMakeFiles/Hello_Static.dir/clean
+.PHONY : CMakeFiles/Hello_Static.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

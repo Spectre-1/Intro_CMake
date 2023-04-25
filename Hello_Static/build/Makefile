@@ -130,17 +130,17 @@ Hello_library/fast:
 .PHONY : Hello_library/fast
 
 #=============================================================================
-# Target rules for targets named Hello_binary
+# Target rules for targets named Hello_Static
 
 # Build rule for target.
-Hello_binary: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hello_binary
-.PHONY : Hello_binary
+Hello_Static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hello_Static
+.PHONY : Hello_Static
 
 # fast build rule for target.
-Hello_binary/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_binary.dir/build.make CMakeFiles/Hello_binary.dir/build
-.PHONY : Hello_binary/fast
+Hello_Static/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_Static.dir/build.make CMakeFiles/Hello_Static.dir/build
+.PHONY : Hello_Static/fast
 
 Src/Hello.o: Src/Hello.cpp.o
 .PHONY : Src/Hello.o
@@ -171,7 +171,7 @@ Src/main.o: Src/main.cpp.o
 
 # target to build an object file
 Src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_binary.dir/build.make CMakeFiles/Hello_binary.dir/Src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_Static.dir/build.make CMakeFiles/Hello_Static.dir/Src/main.cpp.o
 .PHONY : Src/main.cpp.o
 
 Src/main.i: Src/main.cpp.i
@@ -179,7 +179,7 @@ Src/main.i: Src/main.cpp.i
 
 # target to preprocess a source file
 Src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_binary.dir/build.make CMakeFiles/Hello_binary.dir/Src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_Static.dir/build.make CMakeFiles/Hello_Static.dir/Src/main.cpp.i
 .PHONY : Src/main.cpp.i
 
 Src/main.s: Src/main.cpp.s
@@ -187,7 +187,7 @@ Src/main.s: Src/main.cpp.s
 
 # target to generate assembly for a file
 Src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_binary.dir/build.make CMakeFiles/Hello_binary.dir/Src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_Static.dir/build.make CMakeFiles/Hello_Static.dir/Src/main.cpp.s
 .PHONY : Src/main.cpp.s
 
 # Help Target
@@ -198,7 +198,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Hello_binary"
+	@echo "... Hello_Static"
 	@echo "... Hello_library"
 	@echo "... Src/Hello.o"
 	@echo "... Src/Hello.i"

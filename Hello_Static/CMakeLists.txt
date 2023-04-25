@@ -17,19 +17,18 @@ add_library(Hello_library
 
 target_include_directories(Hello_library 
     PUBLIC
-    ${PROJECT_SOURCE_DIR}/include
+    ${PROJECT_SOURCE_DIR}/Include
     )
 
 
 # Add executable
 # First Agrument is the name of the executable
 # Second Argument is the source files
-# Which we set at Set(SOURCES)
-add_executable(Hello_binary 
+add_executable(Hello_Static
     Src/main.cpp
     )
 
-target_link_libraries(Hello_binary
+target_link_libraries(Hello_Static
     PRIVATE
     Hello_library
     )
