@@ -733,8 +733,10 @@ CMakeFiles/Hello_library.dir/Src/Hello.cpp.o: /Users/spectre/Desktop/Intro_CMake
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/spectre/Desktop/Intro_CMake-CTest/Hello_Static/include/static/Hello.h
+  /Users/spectre/Desktop/Intro_CMake-CTest/Hello_Static/Include/static/Hello.h
 
+
+/Users/spectre/Desktop/Intro_CMake-CTest/Hello_Static/Include/static/Hello.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
@@ -1125,8 +1127,6 @@ CMakeFiles/Hello_library.dir/Src/Hello.cpp.o: /Users/spectre/Desktop/Intro_CMake
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
-
-/Users/spectre/Desktop/Intro_CMake-CTest/Hello_Static/include/static/Hello.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/permutable.h:
 
