@@ -21,7 +21,6 @@ target_include_directories(Hello_library
     ${PROJECT_SOURCE_DIR}/Include
     )
 
-
 # Add executable
 # First Agrument is the name of the executable
 # Second Argument is the source files
