@@ -15,6 +15,7 @@ add_library(Hello_library
     STATIC 
     Src/Hello.cpp
     )
+
 # Include directories in the library
 target_include_directories(Hello_library 
     PUBLIC
