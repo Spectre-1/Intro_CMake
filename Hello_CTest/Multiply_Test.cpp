@@ -1,4 +1,4 @@
-#include "Multiply.cpp"
+#include "Multiply.h"
 #include <gtest/gtest.h>
 
 TEST(MultiplyTest, PositiveNumbers) {
